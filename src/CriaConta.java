@@ -5,5 +5,30 @@ public class CriaConta {
         primeiraConta.saldo = 200;
         System.out.println(primeiraConta.saldo);
 
+        primeiraConta.saldo += 100;
+        System.out.println(primeiraConta.saldo);
+
+        Conta segundaConta = new Conta();
+        segundaConta.saldo = 50;
+        System.out.println(segundaConta.saldo);
+
+        System.out.println("Primeira conta tem: " + primeiraConta.saldo);
+        System.out.println("Segunda conta tem: " + segundaConta.saldo);
+
+        System.out.println(primeiraConta.agencia);
+        System.out.println(primeiraConta.numero);
+        System.out.println(primeiraConta.titular);
+
+        System.out.println(segundaConta.agencia);
+
+        segundaConta.agencia = 146;
+        System.out.println("Agora a seugunda conta mudou para: "+ segundaConta.agencia);
+
+        if (primeiraConta == segundaConta){
+            System.out.println("São a mesma conta");
+        } else {
+            System.out.println("Não sao a mesma conta");
+        }
+
     }
 }
