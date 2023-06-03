@@ -1,7 +1,7 @@
 public class Conta {
     double saldo;
     int agencia;
-    int numero;
+    int numer;
     String titular;
 
 }
