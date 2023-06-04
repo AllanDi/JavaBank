@@ -17,7 +17,8 @@ public class TesteReferencia {
         if (primeiraConta == segundaConta){
             System.out.println("São a mesma conta");
         }
-
+        System.out.println(primeiraConta);
+        System.out.println(segundaConta);
 
 
 

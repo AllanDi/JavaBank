@@ -29,6 +29,8 @@ public class CriaConta {
         } else {
             System.out.println("Não sao a mesma conta");
         }
+        System.out.println(primeiraConta);
+        System.out.println(segundaConta);
 
     }
 }
