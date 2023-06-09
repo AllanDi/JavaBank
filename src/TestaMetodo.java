@@ -28,6 +28,24 @@ public class TestaMetodo {
         System.out.println(contaMarcela.saldo);
         System.out.println(verifica1);
 
+        System.out.println("Inicio testes com cliente");
+
+
+        Conta.Cliente clientePaulo = new Conta.Cliente();
+
+        clientePaulo.nome = "Paulo";
+        clientePaulo.cpf = "222.222.222-22";
+        clientePaulo.profissão = "Programador";
+
+        System.out.println(clientePaulo.nome);
+        System.out.println(clientePaulo.cpf);
+        System.out.println(clientePaulo.profissão);
+
+        contaPaulo.titular = clientePaulo;
+
+        System.out.println(contaPaulo.titular.cpf);
+
+
 
 
     }
