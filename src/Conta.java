@@ -1,5 +1,5 @@
 public class Conta {
-    double saldo;
+    private double saldo;
     int agencia;
     int numero;
     Conta.Cliente titular;
@@ -27,5 +27,9 @@ public class Conta {
         String nome;
         String cpf;
         String profissão;
+    }
+
+    public double getSaldo(){
+        return this.saldo;
     }
 }
