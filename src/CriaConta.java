@@ -1,3 +1,13 @@
 public class CriaConta {
 
+
+    public static void main(String[] args) {
+        Conta primeiraconta = new Conta();
+        primeiraconta.saldo = 200;
+        System.out.println(primeiraconta.saldo);
+
+        primeiraconta.saldo += 100;
+        System.out.println(primeiraconta.saldo);
+    }
+
 }
